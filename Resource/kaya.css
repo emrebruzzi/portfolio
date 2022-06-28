@@ -1,0 +1,227 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("images/878.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#icerik {
+    width: 96%;
+    max-width: 1200px;
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.center
+{
+    background: #f987d3;
+    width: 96%;
+    max-width: 1200px;
+    height: 500px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+
+}
+#about
+{
+ height: 100vh;
+ width: 96%;
+ position: relative;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+}
+#contact{
+    text-align: center;
+    font-size: 50px;
+    height: 100vh;
+    width: 96%;
+    max-width: 1200px;
+    position: relative;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#oscw{
+    width: 96%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    right: 100px;
+    left: 180px;
+    top: 150px;
+    bottom: 100px;
+    font-size: 4vw;
+    font-weight: 700;
+    font-style: italic;
+}
+h3{
+    color: white;
+    position: absolute;
+    right: 100px;
+    left: 180px;
+    top: 600px;
+    bottom: 80px;
+    font-size: 4vw;
+    font-weight: 700;
+    font-style: revert;
+}
+.yakisikli
+{
+    width: 96%;
+    height:100%;
+    max-width: 1200px;
+}
+#navbar
+{
+    max-width: 1200px;
+    width: 96%;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(9px);
+    background: rgb(151, 192, 179);
+    border: 1px solid hsla(0,0%,100%,.02);
+    box-shadow: 0 8px 32px 0 rgba(192, 85, 185, 0.02);
+    z-index: 90;
+    background: transparent;
+}
+.emre-nav-text
+{
+    color: white;
+}
+i{ padding: 10px;
+    color: white;
+    background: transparent;
+}
+i:hover{
+    color: cadetblue;
+}
+#ing{
+    position: absolute;
+    top: 450px;
+    left: 600px;
+}
+#lin{
+    position: absolute;
+    top: 450px;
+    left: 850px;
+}
+#gthb{
+    position: absolute;
+    top: 450px;
+    left: 1100px;
+}
+#skills{
+    max-width: 1200px;
+    height: 100vh;
+    width: 96%;
+    position: relative;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#ema{
+    color: white;
+    font-style: unset;
+    position: absolute;
+    top: 600px;
+    font-size: 30px;
+}
+#socmed{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    right: 100px;
+    left: 180px;
+    top: 150px;
+    bottom: 100px;
+    font-size: 4vw;
+    font-style: italic;}
+.card-first{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.card-second{
+    position: absolute;
+    top :300px;
+    left:500px;
+}
+.card-thirth{
+    position: absolute;
+    top :400px;
+    left: 800px;
+}
+.card-forth {
+    position: absolute;
+    top: 500px;
+    left: 1200px;
+}
+.card-text{
+    font-size: 25px;
+}
+#sklsntc1{
+    position: absolute;
+    left: 1100px;
+    bottom: 700px;
+    font-size: 40px;
+    color: white;
+}
+#dnm{
+    position: absolute;
+    left : 340px;
+    top: 250px;
+}
+#dnm2{
+    position: absolute;
+    right:60px;
+    top: 250px;
+}
+#dnm3 {
+    position: absolute;
+    left:800px;
+}
+#soz{
+    position: absolute;
+    top: 500px;
+    right: 350px;
+}
+#prgrmmrphoto{
+    height: 500px;
+    width: 96%;
+    max-width: 1200px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#dnm4{
+    position: absolute;
+    top: 300px;
+}
+#card-fifth {
+    position: absolute;
+    right: 400px;
+
+    top: 500px;
+}
