@@ -1,227 +1,241 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url("images/878.jpg") ;
+    background-image: url("images/878.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #icerik {
-    width: 96%;
-    max-width: 1200px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
     height: 100vh; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
     justify-content: center;
     display: flex;
     align-items: center;
 
 }
-.center
-{
-    background: #f987d3;
-    width: 96%;
-    max-width: 1200px;
+
+.center {
+    position: relative;
+    left: 50px;
+    max-width: 500px;
     height: 500px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     text-align: center;
     overflow: hidden;
-
 }
-#about
-{
- height: 100vh;
- width: 96%;
- position: relative;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    justify-content: center;
-    display: flex;
-    align-items: center;
 
-
-}
-#contact{
-    text-align: center;
-    font-size: 50px;
+#about {
+    padding: 80px;
+    overflow: hidden;
     height: 100vh;
-    width: 96%;
-    max-width: 1200px;
+    width: 100%;
     position: relative;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    justify-content: center;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-#oscw{
-    width: 96%;
-    max-width: 1200px;
-    margin: 0;
-    padding: 0;
+
+#contact {
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#oscw {
+    margin-bottom: 150px;
     color: white;
-    position: absolute;
-    right: 100px;
-    left: 180px;
-    top: 150px;
-    bottom: 100px;
-    font-size: 4vw;
+    font-size: 50px;
     font-weight: 700;
     font-style: italic;
+    text-align: center;
 }
-h3{
+
+.yazim {
     color: white;
-    position: absolute;
-    right: 100px;
-    left: 180px;
-    top: 600px;
-    bottom: 80px;
-    font-size: 4vw;
+    position: relative;
+    font-size: 50px;
     font-weight: 700;
     font-style: revert;
+    text-align: center;
 }
-.yakisikli
-{
-    width: 96%;
-    height:100%;
-    max-width: 1200px;
+
+.yakisikli {
+    width: 100%;
+    height: 100%;
 }
-#navbar
-{
-    max-width: 1200px;
-    width: 96%;
+
+#navbar {
+    width: 100%;
     position: fixed;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(9px);
     background: rgb(151, 192, 179);
-    border: 1px solid hsla(0,0%,100%,.02);
+    border: 1px solid hsla(0, 0%, 100%, .02);
     box-shadow: 0 8px 32px 0 rgba(192, 85, 185, 0.02);
     z-index: 90;
     background: transparent;
 }
-.emre-nav-text
-{
+
+.emre-nav-text {
     color: white;
 }
-i{ padding: 10px;
+
+i {
+    padding: 10px;
     color: white;
     background: transparent;
 }
-i:hover{
+
+i:hover {
     color: cadetblue;
 }
-#ing{
-    position: absolute;
-    top: 450px;
-    left: 600px;
+
+#contact-social-media-area {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
 }
-#lin{
-    position: absolute;
-    top: 450px;
-    left: 850px;
-}
-#gthb{
-    position: absolute;
-    top: 450px;
-    left: 1100px;
-}
-#skills{
+
+#skills {
     max-width: 1200px;
     height: 100vh;
     width: 96%;
     position: relative;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
     justify-content: center;
     display: flex;
     align-items: center;
 }
-#ema{
+
+#ema {
     color: white;
     font-style: unset;
-    position: absolute;
-    top: 600px;
-    font-size: 30px;
+    font-size: 20px;
 }
-#socmed{
-    margin: 0;
-    padding: 0;
+
+#socmed {
     color: white;
-    position: absolute;
-    right: 100px;
-    left: 180px;
-    top: 150px;
-    bottom: 100px;
-    font-size: 4vw;
-    font-style: italic;}
-.card-first{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.card-first {
     position: absolute;
     top: 200px;
     left: 100px;
 }
-.card-second{
+
+.card-second {
     position: absolute;
-    top :300px;
-    left:500px;
+    top: 300px;
+    left: 500px;
 }
-.card-thirth{
+
+.card-thirth {
     position: absolute;
-    top :400px;
+    top: 400px;
     left: 800px;
 }
+
 .card-forth {
     position: absolute;
     top: 500px;
     left: 1200px;
 }
-.card-text{
+
+
+.card-text {
     font-size: 25px;
 }
-#sklsntc1{
+
+#sklsntc1 {
     position: absolute;
     left: 1100px;
     bottom: 700px;
     font-size: 40px;
     color: white;
 }
-#dnm{
-    position: absolute;
-    left : 340px;
-    top: 250px;
-}
-#dnm2{
-    position: absolute;
-    right:60px;
-    top: 250px;
-}
-#dnm3 {
-    position: absolute;
-    left:800px;
-}
-#soz{
+
+
+
+#soz {
     position: absolute;
     top: 500px;
     right: 350px;
 }
-#prgrmmrphoto{
+
+#prgrmmrphoto {
     height: 500px;
-    width: 96%;
-    max-width: 1200px;
+    width: 500px;
     position: absolute;
     left: 0px;
     bottom: 0px;
 }
-#dnm4{
-    position: absolute;
-    top: 300px;
+* {
+    box-sizing: border-box;
 }
-#card-fifth {
-    position: absolute;
-    right: 400px;
 
-    top: 500px;
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    color: cadetblue;
+
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
